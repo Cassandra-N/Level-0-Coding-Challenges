@@ -1,6 +1,6 @@
 function maximum(num1, num2, num3){
     
-    var max = 0;
+    let max = 0;
 
     if(num1 > num2){
         max = num1;

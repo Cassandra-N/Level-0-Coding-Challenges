@@ -1,12 +1,12 @@
 function getTempInFahrenheit(tempInCelsius){
 
-    var tempInFahrenheit = (tempInCelsius * 9/5) + 32;
+    let tempInFahrenheit = (tempInCelsius * 9/5) + 32;
     return tempInFahrenheit;
 }
 
 function getTempInCelsius(tempInFahrenheit){
     
-    var tempInCelsius = (tempInFahrenheit - 32) * 5/9;
+    let tempInCelsius = (tempInFahrenheit - 32) * 5/9;
     return tempInCelsius;
 }
 

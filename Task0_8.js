@@ -1,7 +1,7 @@
 function getHoursAndMinutes(num){
 
-    var hours = 0;
-    var minutes = 0;
+    let hours = 0;
+    let minutes = 0;
 
     while (num >= 60){
         num -= 60;

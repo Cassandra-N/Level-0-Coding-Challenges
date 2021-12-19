@@ -1,7 +1,7 @@
 function getAreaOfTriangle(side1, side2, side3){
 
-    var semiPerimeter = 0;
-    var area = 0;
+    let semiPerimeter = 0;
+    let area = 0;
 
     semiPerimeter = 1/2*(side1 + side2 + side3);
 

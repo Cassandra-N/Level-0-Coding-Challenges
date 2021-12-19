@@ -1,9 +1,9 @@
 function getVowels(string){
 
-    var stringArray = string.split("");
-    var vowelsArray = [];
+    let stringArray = string.split("");
+    let vowelsArray = [];
 
-    for (var i = 0; i < stringArray.length; i++){
+    for (let i = 0; i < stringArray.length; i++){
         if(stringArray[i].toLowerCase() == "a" || stringArray[i].toLowerCase() == "e"
         || stringArray[i].toLowerCase() == "i" || stringArray[i].toLowerCase() == "o"
         || stringArray[i].toLowerCase() == "u"){
@@ -12,9 +12,9 @@ function getVowels(string){
         }
     } 
     
-    var finalVowels = [];
+    let finalVowels = [];
     
-    for (var i = 0; i < vowelsArray.length; i++){
+    for (let i = 0; i < vowelsArray.length; i++){
         if(!(finalVowels.includes(vowelsArray[i]))){
             finalVowels += vowelsArray[i];
             if(i < vowelsArray.length -1){

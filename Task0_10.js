@@ -8,12 +8,11 @@ function getCommonLetters(string1, string2) {
     if (string1Array.includes(string2Array[i])) {
       commonLetters += string2Array[i];
       if (i >= 1 && i < string2Array.length - 1) {
-        commonLetters += ",";
+        commonLetters += ", ";
       }
     }
   }
 
   console.log("Common letters: " + commonLetters);
 }
-
 getCommonLetters("house", "computers");

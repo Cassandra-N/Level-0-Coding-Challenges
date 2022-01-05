@@ -8,7 +8,8 @@ function getHoursAndMinutes(num) {
       minutes = num;
       ++hours;
     }
-  } else {
+  } 
+  else {
     minutes = num;
   }
 
